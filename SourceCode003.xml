@@ -1,0 +1,42 @@
+<AML>
+  <Item type="Part" action="add">
+    <item_number>999-888</item_number>
+    <description>Some Assy</description>
+    <Relationships>
+      <Item type="Part BOM" action="add">
+        <quantity>10</quantity>
+        <related_id>
+          <Item type="Part" action="add">
+            <item_number>123-456</item_number>
+          </Item>
+        </related_id>
+      </Item>
+    </Relationships>
+  </Item>
+  <Item type="Part" action="add">
+    <item_number>777-666</item_number>
+    <Relationships>
+      <Item type="Part BOM" action="add">
+        <quantity>10</quantity>
+        <related_id>
+          <Item type="Part" action="add">
+            <item_number>345-678</item_number>
+          </Item>
+        </related_id>
+      </Item>
+    </Relationships>
+  </Item>
+  <Item type="Part" action="add">
+    <item_number>555-444</item_number>
+    <Relationships>
+      <Item type="Part BOM" action="add">
+        <quantity>10</quantity>
+        <related_id>
+          <Item type="Part" action="add">
+            <item_number>abc-def</item_number>
+          </Item>
+        </related_id>
+      </Item>
+    </Relationships>
+  </Item>
+</AML>
